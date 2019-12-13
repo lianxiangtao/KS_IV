@@ -21,14 +21,6 @@ from tkinter import scrolledtext
 
 warnings.filterwarnings(action='ignore')
 
-#import shlex, subprocess
-#
-#commad_line = "start D:\workplace \K "
-#
-#argv = shlex.split(commad_line)
-#subprocess.(argv)
-
-
 class KS():
     def __init__(self, label="label", k=10, n_split=8, output_path="./",
                  output_if=True, ks_max=True, iv_sum=True):
